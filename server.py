@@ -12,7 +12,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
 
 def handle_client(conn, addr):
-    print(f"[NEW CONNECTION] {addr} connected")
+    print(f"[NEW CONNECTION] {SERVER} connected")
 
     connected = True
     while connected:
